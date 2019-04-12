@@ -1,0 +1,18 @@
+{
+  "/IdoStudio": {
+    "target": "http://test.ido-love.com/IdoStudio",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/IdoStudio": ""
+    }
+  },
+  "/pcm-admin": {
+    "target": "http://192.168.7.113:8040/api/pcm-admin",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/pcm-admin": ""
+    }
+  }
+}
